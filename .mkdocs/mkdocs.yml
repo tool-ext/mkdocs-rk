@@ -1,0 +1,30 @@
+site_name: MK Docs - Obsidian Config
+# site_url: https://www.mydomain.com/possiblepath/
+# site_author: name or domain.com
+site_description: MKDocs Material - Configured for Obsidian
+
+# Repository - Uncomment link to not show it
+repo_url: https://github.com/surgosync/MKDocs-2-Obsidian
+repo_name: surgosync/MKDocs-2-Obsidian
+edit_uri: edit/main
+
+docs_dir: '../' # Default is docs but keeping it defined anyway
+site_dir: '../site/' # Just keep "site" and then define name of site here
+
+# Theme
+theme:
+  name: material
+  features:
+    - navigation.sections
+  logo: assets/logo.svg  # Add your logo path here
+  favicon: assets/favicon.ico  # Add your favicon path here  
+
+# Include custom CSS
+extra_css:
+  - assets/custom.css
+
+plugins:
+  - search
+  - roamlinks
+  # - blog
+  - same-dir
