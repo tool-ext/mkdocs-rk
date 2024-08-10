@@ -1,0 +1,26 @@
+INHERIT: './1theme.yml'
+# Extensions - https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+markdown_extensions:
+  - footnotes
+  # - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  # - pymdownx.superfences # syntax highlighting in code - 
+  # - pymdownx.details # call-outs collapsible
+  # - pymdownx.magiclink
+  - pymdownx.tasklist: # Tasks lists are not supported by default markdown - only in Github flavored
+      custom_checkbox: true
+  - def_list
+  - pymdownx.critic # Add commentary/critique of something in the docs - https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - toc:
+      permalink: true

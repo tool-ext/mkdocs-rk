@@ -1,0 +1,75 @@
+theme:
+  # ref = https://bit.ly/3QBXSPg
+  name: 'material'
+  # custom_dir: 'assets/overrides'
+  # ref = https://bit.ly/3QBXSPg
+  logo: assets/logo.svg  # Add your logo path here
+  favicon: assets/favicon.ico  # Add your favicon path here  
+  # ref = https://bit.ly/3UvOZYH
+  font: false
+  # font:
+    # text: Inter
+    # code: Courier
+  features:
+    - announce.dismiss # https://bit.ly/3JPvtBj
+    # https://bit.ly/3wpzGsi
+    - content.action.edit
+    - content.action.view
+    # Code blocks - nice features - https://bit.ly/4drwwFf
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    # https://bit.ly/3WyaZoe
+    # - content.footnote.tooltips
+    # - content.tabs.link # Probably not supported by Obsidian https://bit.ly/4bjnKra
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand # https://bit.ly/3QWXzyL
+    # - navigation.footer # RK: Footer navigation not necessary
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune # https://bit.ly/4a8TJsQ
+    # - navigation.sections 
+    # - navigation.tabs # https://bit.ly/4aeUjp0
+    # - navigation.tabs.sticky
+    - navigation.top 
+    - navigation.tracking # https://bit.ly/4a91DlZ
+    - search.highlight # https://bit.ly/3Uyjygk
+    - search.share
+    - search.suggest
+    # - toc.follow # https://bit.ly/4boC6X4
+    # - toc.integrate # https://bit.ly/4bvnZPT
+
+  # https://bit.ly/3y1HhxG
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to light mode
+
+
+# Include custom CSS # https://bit.ly/4bsYFd4
+extra_css:
+  - assets/css/style.css
+  - 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
+  # - 'https://surgosync.github.io/MkDocs-Material-Styles/assets/css/styles/obsidian.css'
+
+
+
+
+
+
