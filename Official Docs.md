@@ -1,4 +1,5 @@
 ---
 icon: material/information
 ---
-https://help.obsidian.md/
+- [help.obsidian.md](https://help.obsidian.md/)
+

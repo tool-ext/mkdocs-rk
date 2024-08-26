@@ -1,28 +1,34 @@
 ---
-url_ai_private: 
 icon: material/information
 ---
-## What ℹ️
-A configuration for MKDocs that makes it work with Obsidian effectively
-## Why 🤷‍♂️
-The default config for MKDocs isn't great for inclusion in an Obsidian vault. 
-## Included ✅
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Read the [[About This]] page for info on changed settings. 
+## Uullamco Laboris
 
-|                                                                                                  |                                                                                                              |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| SameDir Plugin 📂 <br>Allows for markdown docs to live in the root directory instead of "/docs/" | Hidden Config Folder 🎛️ <br>Moves all config files to a hidden .mkdocs directory so not visible in Obsidian |
-| Converts WikiLinks 🔗 <br>Uses the RoamLinks plugin to standard markdown links                   | Logo and Favicon 🌇 <br>Adds Obsidian logo and favicon for fun!                                              |
-| Custom CSS 🎨 <br>Adds a custom.css file that mirrors default Obsidian theme.                    |                                                                                                              |
-### SameDir Plugin 📂 
-Allows for markdown docs to live in the root directory instead of "/docs/"
-### Hidden Config Folder 🎛️ 
-Moves all config files to a hidden .mkdocs directory so not visible in Obsidian
-### Converts WikiLinks 🔗 
-Uses the RoamLinks plugin to standard markdown links
-### Logo and Favicon 🌇 
-Adds Obsidian logo and favicon for fun!
-### Custom CSS 🎨 
-Adds a custom.css file that mirrors default Obsidian theme. 
+Lorem Ipsum table:
 
+|Column 1|Column 2|Column 3|
+|---|---|---|
+|Lorem|Ipsum|Dolor|
+|Sit|Amet|Consectetur|
+|Adipiscing|Elit|Integer|
+|Facilisis|Nunc|Nec|
+|Ultrices|Nulla|Quis|
+### Officia Deserunt
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 
+1. Lorem
+2. Ipsum
+3. Dolor
+4. Sit
+## Laborum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Aliquip 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Cillum 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Excepteur
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

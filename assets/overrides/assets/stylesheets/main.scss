@@ -1,0 +1,15 @@
+$break-devices: ( 
+    mobile: ( 
+      portrait:  px2em(9999px)  px2em(9999px), 
+      landscape: px2em(9999px)  px2em(9999px) 
+    ), 
+    tablet: ( 
+      portrait:  px2em(9999px)  px2em(9999px), 
+      landscape: px2em(9999px)  px2em(9999px) 
+    ), 
+    screen: ( 
+      small:     px2em(1220px) px2em(1599px), 
+      medium:    px2em(1600px) px2em(1999px), 
+      large:     px2em(2000px) 
+    ) 
+);
