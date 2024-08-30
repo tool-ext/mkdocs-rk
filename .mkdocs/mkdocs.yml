@@ -1,7 +1,7 @@
 INHERIT: './4extras.yml'
-site_name: MkDocs Styles
+site_name: MkDocs Obsidian
 # site_url: ________
-site_author: MkDocs Obsidian
+site_author: Reess Kennedy
 site_description: Configured to visually and functionally work well with Obsidian.md
 
 # Repository - Uncomment link to not show it
