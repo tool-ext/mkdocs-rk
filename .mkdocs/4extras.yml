@@ -11,9 +11,8 @@ extra:
 extra_css:
   # - /a/mkdocs/css/default.css
   # - html/ # might allow for html to be include in here
-  # - https://surgoshare.github.io/CSS-FamousStyles/styles/mkdocs/obsidian.css
+  - https://surgoshare.github.io/CSS-FamousStyles/a/mkdocs/css/obsidian.css
   - 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
-  - https://surgoshare.github.io/CSS-FamousStyles/styles/mkdocs/obsidian.css
 
 extra_javascript:
   - javascripts/mathjax.js

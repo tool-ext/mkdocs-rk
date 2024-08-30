@@ -3,17 +3,13 @@ icon: material/test-tube
 title: Features
 ---
 ✅ = Obsidian + Website compatible
-
 ### Styles ✅ 
 - Sidebars - left and right sidebars added
 - Dark and light theme - Uses CSS vars for easy modification
 - Vertical bars - Added to theme to show expanded navigation, as in default Obsidian
-
 ### WikiLinks ✅
 This link to the [[Sample]] page was initially just written as `[[Sample]]` in Obsidian and converted by the SamDir plugin during the build process. 
-
 ### Mermaid diagrams ✅
-
 Here's the example from [MkDocs Material documentation](https://squidfunk.github.io/mkdocs-material/reference/diagrams/#using-flowcharts): 
 
 ```mermaid
@@ -27,8 +23,6 @@ graph LR
 
 ### LaTeX Math Support ✅
 
-LaTeX math is supported using MathJax.
-
 Inline math looks like $f(x) = x^2$. The input for this is `$f(x) = x^2$`. Use `$...$`.
 
 For a block of math, use `$$...$$` on separate lines
@@ -39,7 +33,7 @@ F(x) = \int^a_b \frac{1}{2}x^4
 $$
 ```
 
-gives 
+converts to
 
 $$
 F(x) = \int^a_b \frac{1}{2}x^4

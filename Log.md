@@ -1,10 +1,7 @@
 ---
 icon: material/calendar-edit
 ---
-
-
 ==2024 notes, discoveries and changes==
-
 ## 08
 
 ### 30
