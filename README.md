@@ -1,34 +1,27 @@
 ---
 icon: material/information
+title: About
+url_github: https://surgosync.github.io/MkDocs-Obsidian/
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Read the [[About This]] page for info on changed settings. 
-## Uullamco Laboris
+This site is powered by [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material) & configured to visually and functionally work well with [Obsidian.md](https://obsidian.md/), the popular note taking app. 
 
-Lorem Ipsum table:
+If working in Obsidian or any markdown notes app, it's best to have the flexibility to place markdown files in the root directory, or anywhere you wish, and this configuration allows for this, bypassing the normal need to place files in the `/docs/` directory, among a handful of other features summarized below. 
 
-|Column 1|Column 2|Column 3|
-|---|---|---|
-|Lorem|Ipsum|Dolor|
-|Sit|Amet|Consectetur|
-|Adipiscing|Elit|Integer|
-|Facilisis|Nunc|Nec|
-|Ultrices|Nulla|Quis|
-### Officia Deserunt
+## Active Feature Summary
+----
+### Folder Structure 🎛️ 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+#### Hidden Config Folder 
+Moves all config files to a hidden .mkdocs directory so not visible in Obsidian
+### Styles 🎨 
 
-1. Lorem
-2. Ipsum
-3. Dolor
-4. Sit
-## Laborum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Custom CSS
+Adds a custom.css file that mirrors default Obsidian theme. 
+#### Logo an Favicons
+Adds Obsidian logo and favicon for fun!
+### Plugins 🧩
 
-### Aliquip 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Cillum 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Excepteur
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### SameDir  
+Allows for markdown docs to live in the root directory instead of "/docs/"
+#### Roamlinks 
+This plugin allows for WIKILINKs support ... presumably it scans the entire directory for the filename and then gets the full path and inserts it as in normal markdown and required for a normal website. 

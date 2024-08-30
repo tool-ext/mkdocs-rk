@@ -1,20 +1,20 @@
 INHERIT: './4extras.yml'
-site_name: MK Docs - Obsidian
-# site_url: https://www.mydomain.com/possiblepath/
-# site_author: name or domain.com
-site_description: MKDocs Material - Configured for Obsidian
+site_name: MkDocs Styles
+# site_url: ________
+site_author: MkDocs Obsidian
+site_description: Configured to visually and functionally work well with Obsidian.md
 
 # Repository - Uncomment link to not show it
-repo_url: https://github.com/surgosync/MKDocs-Obsidian
-repo_name: surgosync/MKDocs-Obsidian
-edit_uri: edit/main
+repo_url: https://github.com/surgoshare/Docs-MkDocs-Obsidian
+repo_name: MkDocs-Obsidian
+# edit_uri: edit/main
 
 docs_dir: '../' # Default is docs but keeping it defined anyway
-site_dir: '../site/' # Just keep "site" and then define name of site here
-
+site_dir: '../site/' #  Just keep "site" and then define name of site here
 
 plugins:
-  - search
+  #- search
   - roamlinks
   # - blog
   - same-dir
+

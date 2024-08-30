@@ -3,8 +3,8 @@ theme:
   name: 'material'
   # custom_dir: 'assets/overrides'
   # ref = https://bit.ly/3QBXSPg
-  logo: assets/logo.svg  # Add your logo path here
-  favicon: assets/favicon.ico  # Add your favicon path here  
+  logo: 'assets/logo.svg'
+  favicon: 'assets/favicon.ico'
   # ref = https://bit.ly/3UvOZYH
   font: false
   # font:
@@ -37,8 +37,9 @@ theme:
     - navigation.top 
     - navigation.tracking # https://bit.ly/4a91DlZ
     - search.highlight # https://bit.ly/3Uyjygk
-    - search.share
-    - search.suggest
+    - navigation.expand
+    # - search.share
+    # - search.suggest
     # - toc.follow # https://bit.ly/4boC6X4
     # - toc.integrate # https://bit.ly/4bvnZPT
 
@@ -60,10 +61,3 @@ theme:
       toggle:
         icon: material/toggle-switch-off
         name: Switch to light mode
-
-
-# Include custom CSS # https://bit.ly/4bsYFd4
-extra_css:
-  # - assets/css/style.css
-  # - 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
-  - 'https://surgoshare.github.io/CSS-FamousStyles/styles/mkdocs/obsidian.css'
