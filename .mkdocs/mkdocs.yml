@@ -9,6 +9,8 @@ repo_url: https://github.com/surgoshare/Docs-MkDocs-Obsidian
 repo_name: MkDocs-Obsidian
 # edit_uri: edit/main
 
+strict: false
+
 docs_dir: '../' # Default is docs but keeping it defined anyway
 site_dir: '../site/' #  Just keep "site" and then define name of site here
 
