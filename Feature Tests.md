@@ -1,6 +1,6 @@
 ---
 icon: material/test-tube
-title: Features
+title: Feature Tests
 ---
 ✅ = Obsidian + Website compatible
 ### Styles ✅ 
