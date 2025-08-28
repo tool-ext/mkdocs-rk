@@ -1,6 +1,5 @@
 ---
 icon: material/rocket-launch
-status: new
 ---
 ==This deserves a more careful step-by-step but already spending too much time on this so will have to revist==
 ### 1️⃣ Download this repository

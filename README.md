@@ -3,7 +3,31 @@ icon: material/information
 title: About
 url_github: https://surgosync.github.io/MkDocs-Obsidian/
 ---
-This site is powered by [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material) & configured to visually and functionally work well with [Obsidian.md](https://obsidian.md/), the popular note taking app. 
+## What 🎯
+This site is a demo (and testing laboratory) for [MkDocs Material Theme](https://squidfunk.github.io/mkdocs-material), the popular, python-based static site builder.  
+
+## How To 📋
+- Run locally
+- Deploy options - Github, Cloudflare, Vercel
+
+### My Enhancements ⚙️
+I hacked around to make MkDocs more compatible with Obsidian & create some fun themes that resemble famous documentation. 
+
+- MkDocs for Obsidian
+- Famous CSS for MkDocs
+
+## Premium 💼
+Mostly testing multi-user. 
+
+## Standard Features 📦
+- Blog
+- Top bar
+
+
+
+
+
+This site is powered by & configured to visually and functionally work well with [Obsidian.md](https://obsidian.md/), the popular note taking app. 
 
 If working in Obsidian or any markdown notes app, it's best to have the flexibility to place markdown files in the root directory, or anywhere you wish, and this configuration allows for this, bypassing the normal need to place files in the `/docs/` directory, among a handful of other features summarized below. 
 ##  🎛️ 
